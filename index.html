@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhamad Raeyhan | Portfolio</title>
+    <style>
+        /* Menggunakan font yang elegan */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #ffffff;
+            color: #1a1a1a;
+        }
+
+        /* Navbar Hitam di Atas */
+        nav {
+            background-color: #000000;
+            color: white;
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /* Section Utama */
+        .hero {
+            padding: 100px 10% 50px 10%;
+            max-width: 900px;
+        }
+
+        /* Tulisan Hi, Welcome yang besar */
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 5rem;
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        .welcome-text {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-style: italic;
+        }
+
+        /* Subtitle */
+        .subtitle {
+            margin-top: 30px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        /* Deskripsi Panjang */
+        .description {
+            margin-top: 20px;
+            font-size: 1.4rem;
+            line-height: 1.6;
+            color: #555;
+            max-width: 700px;
+        }
+
+        /* Responsive untuk HP */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 3rem; }
+            .description { font-size: 1.1rem; }
+            nav { padding: 15px 5%; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">MR</div>
+        <div class="nav-links">
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Hi, <span class="welcome-text">Welcome</span></h1>
+        
+        <p class="subtitle">
+            I'm Muhamad Raeyhan,<br>
+            Product Designer (UX/UI) | Web Developer
+        </p>
+
+        <p class="description">
+            Shaping the functionality, aesthetics, and overall user experience of a wide range of Digital products. Bridging the gap between user needs, technological possibilities, and business objectives.
+        </p>
+    </section>
+
+</body>
+</html>
